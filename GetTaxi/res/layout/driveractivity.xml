@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".DriverActivity" >
+    
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/goBackButton"
+    android:text="Go Back"
+    android:onClick="goBackButton_Click"
+    />
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coordinatesTextView"
+        android:text="GPS COORDINATES"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressTextView"
+        android:text="ADDRESS"
+        />
+  
+        <Button
+        android:onClick="toPickupButton_Click"
+        android:id="@+id/toPickupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Pickup"
+        />
+    
+      <Button
+        android:text="Get Nearby Passengers"
+        android:onClick="getNearbyTaxiRequestsButton_Click"
+        android:id="@+id/getNearbyTaxiRequestsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ListView
+        android:id="@+id/taxiRequestsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+    
+
+</LinearLayout>

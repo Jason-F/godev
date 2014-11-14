@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goBackButton"
+        android:text="Go Back"
+        android:onClick="goBackButton_Click"
+        />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callDriverButton"
+        android:text="Call Passenger"
+        android:onClick="callPassengerButton_Click"
+        />  
+        
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickupPassengerButton"
+        android:text="Pickup Passenger"
+        android:onClick="pickupPassengerButton_Click"
+        />     
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneTextView"
+        android:text="GPS COORDINATES"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressTextView"
+        android:text="GPS COORDINATES"
+        />    
+        
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gpsTextView"
+        android:text="GPS COORDINATES"
+        />
+     
+    
+</LinearLayout>
